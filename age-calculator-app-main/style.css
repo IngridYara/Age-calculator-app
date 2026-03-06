@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+}
+
+main{
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    background-color: hsl(0, 100%, 100%);
+    padding: 30px 0px 50px 30px;
+    border-radius: 15px 15px 23% 15px;
+    position: relative;
+    width: 27%;
+    margin-bottom: 30px;
+}
+
+section.data{
+
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.item-data{
+
+    display: flex;
+    flex-flow: column wrap;
+    height: 100px;
+}
+
+.item-data > label{
+
+    color: hsl(0, 1%, 44%);
+    font-weight: 700;
+    font-size: 0.6em;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+
+.item-data > input{
+
+    padding: 5px 10px 5px 15px;
+    border-radius: 5px;
+    border: 0.5px solid hsl(0, 0%, 86%);
+    outline-color: hsl(259, 100%, 65%);
+    width: 105px;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.item-data > input::placeholder{
+
+    font-weight: 700;
+
+
+}
+.item-data > p{
+
+    height: 20px;
+   
+}
+
+hr{
+
+    width: 85%;
+    height: 1px;
+    background-color: hsla(0, 0%, 86%, 0.641);
+    border: none;
+
+}
+
+button{
+
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    top: 26%;
+    
+}
+
+button:hover{
+
+    background-color: black;
+
+}
+
+button > img{
+
+    object-fit: 1/1;
+    border-radius: 50%;
+    max-width: 50%;
+   
+}
+
+section.resultado{
+
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+}
+
+p{
+
+    font-size: 4em;
+    font-weight: 900;
+    font-style: italic;
+    height: 60px;
+}
+
+p span.destaque{
+
+    color: hsl(259, 100%, 65%);
+
+}
+
+.Invalido{
+
+    color: hsl(0, 100%, 67%) ;
+    font-size: 0.7em;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 5px;
+    display: none;
+}

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Age calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,22 +16,46 @@
 </head>
 <body>
 
-  Day
-  DD
+  <main>
+    <section class="data">
 
-  Month
-  MM
+      <div class="item-data">
+        <label class="labelsData">DAY</label>
+        <input min="1" max="31" id="inputDay" type="number" placeholder="DD">
+        <p class="Invalido">Must be a valid date</p>
+      </div>
 
-  Year
-  YYYY
+      <div class="item-data">
+        <label class="labelsData">MONTH</label>
+        <input min="1" max="12" id="inputMonth" type="number" placeholder="MM">
+        <p class="Invalido">Must be a valid date</p>
+      </div>
 
-  -- years
-  -- months
-  -- days
+      <div class="item-data">
+        <label class="labelsData">YEAR</label>
+        <input id="inputYear" type="number" placeholder="YYYY">
+        <p class="Invalido">Must be a valid date</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <button onclick="CalculaIdade()">
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </button>
+
+    <section class="resultado">
+      <p><span class="destaque" id="yearsElement">--</span> years</p>
+      <p><span class="destaque" id="monthsElement">--</span> months</p>
+      <p><span class="destaque" id="daysElement">--</span> days</p>
+    </section>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
