@@ -49,7 +49,7 @@ section.data{
 .item-data > label{
 
     color: hsl(0, 1%, 44%);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 0.6em;
     letter-spacing: 3px;
     margin-bottom: 5px;
@@ -70,7 +70,6 @@ section.data{
 .item-data > input::placeholder{
 
     font-weight: 700;
-
 
 }
 .item-data > p{
@@ -145,4 +144,213 @@ p span.destaque{
     font-style: italic;
     margin-top: 5px;
     display: none;
+}
+
+@media screen and (max-width:600px) {
+
+    body{
+
+        padding: 15px;
+    }
+    
+    main{
+
+        padding: 30px 30px 50px 30px;
+        border-radius: 20px 20px 23% 20px;
+        width: 70%;
+    }
+
+    hr{
+
+        width: 100%;
+    }
+
+    .item-data > input{
+
+        font-size: 1.2em;
+        width: 75px;
+        padding: 10px 5px 10px 10px;
+    }
+
+    button{
+
+        right: 43%;
+        top: 32%;
+        
+    }
+
+    section.data{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    section.resultado{
+
+        align-content: center;
+        margin-top: 50px;
+    }   
+
+    p{
+
+        font-size: 3.6em;
+
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    body{
+
+        padding: 15px;
+    }
+
+    main{
+
+        padding: 30px 30px 50px 30px;
+        width: 70%;
+    }
+
+    .item-data > input{
+
+        width: 95px;
+    }
+
+    hr{
+
+        width: 95%;
+    }
+
+    button{
+
+        right: 5%;
+        top: 26%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+    body{
+
+        padding: 15px;
+    }
+
+    main{
+
+        padding: 30px 30px 50px 30px;
+        width: 60%;
+    }
+
+    .item-data > input{
+
+        width: 95px;
+    }
+
+    hr{
+
+        width: 95%;
+    }
+
+    button{
+
+        right: 5%;
+        top: 26%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1000px){
+
+    body{
+
+        padding: 15px;
+    }
+
+    main{
+
+        padding: 30px 30px 50px 30px;
+        width: 50%;
+    }
+
+    section.data{
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    hr{
+
+        width: 95%;
+    }
+
+    button{
+
+        right: 5%;
+        top: 32%;
+    }
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1365px){
+
+    body{
+
+        padding: 15px;
+    }
+
+    main{
+
+        padding: 30px 30px 50px 30px;
+        width: 45%;
+    }
+
+    section.data{
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    hr{
+
+        width: 95%;
+    }
+
+    button{
+
+        right: 5%;
+        top: 32%;
+    }
+
+}
+
+@media screen and (min-width:1366px) and (max-width:1680px){
+
+    body{
+
+        padding: 15px;
+    }
+
+    main{
+
+        padding: 30px 30px 50px 30px;
+        width: 35%;
+    }
+
+    section.data{
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    hr{
+
+        width: 95%;
+    }
+
+    button{
+
+        right: 5%;
+        top: 32%;
+    }
+
 }

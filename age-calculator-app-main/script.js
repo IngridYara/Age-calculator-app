@@ -142,3 +142,27 @@ function erroDia(cor, index) {
         }
     }
 }
+
+inputYear.addEventListener("keyup", (e) =>{
+
+    if (e.code === "Enter") {
+        
+        CalculaIdade()
+    }
+})
+
+inputMonth.addEventListener("keyup", (e) =>{
+
+    if (e.code === "Enter") {
+        
+        CalculaIdade()
+    }
+})
+
+inputDay.addEventListener("keyup", (e) =>{
+
+    if (e.code === "Enter") {
+        
+        CalculaIdade()
+    }
+})
